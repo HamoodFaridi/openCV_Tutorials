@@ -4,7 +4,7 @@
 import cv2
 import os
 path = '/MyWork/PYTHON/OpenCV'
-image_file = "ImageTransformation/TestImage_01.jpg"
+image_file = "ImageTransformation/FirstImage.jpg"
 # Update directory to current working folder if not the same
 try:
     os.chdir(path)
