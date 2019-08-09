@@ -3,7 +3,7 @@
 # Import necessary modules
 import cv2
 import os
-path = 'C:/Users/labuser/Desktop/MyWork/PYTHON/OpenCV'
+path = '/MyWork/PYTHON/OpenCV'
 image_file = "ImageTransformation/TestImage_01.jpg"
 # Update directory to current working folder if not the same
 try:
@@ -24,3 +24,5 @@ try:
         print("Check file path and name")
 except FileNotFoundError as e:
     print("Not a directory", e)
+finally:
+    cv2.destroyAllWindows()
